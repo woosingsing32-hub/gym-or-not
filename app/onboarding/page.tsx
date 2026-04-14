@@ -21,11 +21,8 @@ export default function OnboardingPage() {
     <main className="app-container min-h-screen flex flex-col items-center justify-between px-5 pt-16 pb-12 page-enter">
       {/* Logo + headline */}
       <div className="w-full text-center">
-        <p className="font-pixel text-xs mb-3" style={{ color: '#aaa', letterSpacing: '0.2em' }}>
-          d a n d a n
-        </p>
         <h1 className="font-pixel mb-4" style={{ fontSize: 32, color: '#FF9500', lineHeight: 1.5, textShadow: '3px 3px 0 rgba(0,0,0,0.12)' }}>
-          단단
+          dandan
         </h1>
         <div className="pixel-divider" style={{ width: 160, margin: '0 auto 20px' }} />
         <p className="font-body font-medium" style={{ fontSize: 17, lineHeight: 1.8, color: '#333' }}>
@@ -78,7 +75,7 @@ export default function OnboardingPage() {
 
       {/* CTA */}
       <div className="w-full">
-        <Link href="/test" onClick={trackTestStart} className="pixel-btn pixel-btn-primary pixel-btn-lg block text-center w-full font-pixel" style={{ fontSize: 10 }}>
+        <Link href="/test" onClick={trackTestStart} className="pixel-btn pixel-btn-primary pixel-btn-lg block text-center w-full font-pixel" style={{ fontSize: 16 }}>
           테스트 시작하기
         </Link>
         <p className="font-body text-center mt-3" style={{ fontSize: 11, color: '#aaa' }}>
