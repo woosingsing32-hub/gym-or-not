@@ -45,7 +45,7 @@ export default function OnboardingPage() {
             key={type}
             style={{
               transform: i === 2 ? 'scale(1.25)' : 'scale(0.8)',
-              opacity: i === 2 ? 1 : i === 1 || i === 3 ? 0.65 : 0.3,
+              opacity: i === 2 ? 1 : i === 1 || i === 3 ? 0.7 : 0.45,
               transition: 'all 0.3s',
               transformOrigin: 'bottom center',
             }}
